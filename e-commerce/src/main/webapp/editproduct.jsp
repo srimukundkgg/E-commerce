@@ -21,7 +21,7 @@
 	<div class="content">
 	<div class="container">
 			<h3>Enter ID</h3>	
-			<input class="input" type="hidden" name="id" value="<%=resultset.getString(1)%>" required><br><br>
+			<input class="input" type="text" name="id" value="<%=resultset.getString(1)%>" required><br><br>
 			<h3>Enter Name</h3>
 			<input class="input" type="text" name="name" value="<%=resultset.getString(2)%>" required><br><br>
             <h3>Enter Price</h3>
